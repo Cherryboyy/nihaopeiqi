@@ -1,0 +1,38 @@
+.zhuzhu {
+    width: 180px;
+}
+.input-my .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+   
+    height: 50px;
+}
+.input-my .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+    line-height: 50px;
+}
+.my-put .css-1gyr8kh {
+    width: 650px !important;
+    margin: 0 auto;
+}
+.my-put .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+    /* height: 300px; */
+}
+.box-name {
+    position: relative;
+    padding-top: 100px;
+}
+.box-img {
+    position: absolute;
+    top: -4%;
+    left: 27%;
+}
+.css-e53awj-MuiStack-root {
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.zhuzhu1 {
+    position: absolute;
+    right: 7%;
+    top: 46%;
+}
+.zhuzhu2 {
+    width: 300px;
+}

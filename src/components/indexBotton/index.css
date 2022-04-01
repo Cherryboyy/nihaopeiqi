@@ -1,0 +1,27 @@
+.box-her {
+    position: relative;
+}
+.her-val {
+    position: absolute;
+    top: 0;
+    width: 400px;
+    left: 6%;
+}
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+    background-color: #fff !important;
+}
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: #fff !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.img-bot {
+    height: 410px;
+}
+.bot-text {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 25px;
+}
