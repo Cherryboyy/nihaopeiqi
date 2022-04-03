@@ -30,6 +30,10 @@ const router: Array<Router> = [
   {
     path: '/cooperation',
     component: lazy(() => import('../pages/cooperation'))
+  },
+  {
+    path: '/article/:id',
+    component: lazy(() => import('../pages/article/list'))
   }
 ]
 

@@ -3,6 +3,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom'
 import IndexHeader from './components/indexHeader'
 import IndexBotton from './components/indexBotton'
+import Article from './components/articles/index'
 import router from './router' 
 
 const App: React.FC =() => {
@@ -25,6 +26,7 @@ const App: React.FC =() => {
             })
           }
         </Routes>
+        <Article />
         <IndexBotton/>
       </main>
     )

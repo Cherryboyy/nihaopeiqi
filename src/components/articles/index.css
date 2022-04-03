@@ -1,0 +1,21 @@
+.list-item {
+    width: 720px !important;
+}
+.list-img {
+    width: 100px;
+    height: 50px;
+}
+.list-item .MuiListItemText-primary {
+    text-align: left !important;
+}
+.list-item .MuiListItemText-multiline {
+    margin-left: 5px;
+}
+.list-ionc {
+    vertical-align:middle;
+    font-size: 3rem !important;
+}
+.list-text {
+    vertical-align:middle;
+    font-size: 24px;
+}
