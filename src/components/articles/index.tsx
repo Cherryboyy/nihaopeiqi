@@ -40,10 +40,7 @@ const Article: React.FC = () => {
             return (
               <ListItem className='list-item' key={index} onClick={() => {clickout(item.id)}}>
                 <ListItemAvatar>
-                <img
-                  className='list-img'
-                  src={item.img}
-                />
+                  <img alt='' className='list-img' src={item.img} />
                 </ListItemAvatar>
                 <ListItemText primary={item.name} secondary={item.text} />
               </ListItem>

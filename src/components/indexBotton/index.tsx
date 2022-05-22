@@ -20,7 +20,7 @@ const BasicButtons: React.FC =() => {
       <Grid container spacing={2}>
         <Item>
             <div className="box-her">
-                <div>
+                <div className='box-her-img'>
                     <img src={barder1} alt="" className="img-bot"/>
                 </div>
                 <div className="her-val">

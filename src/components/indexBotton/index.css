@@ -25,3 +25,12 @@
     color: #fff;
     margin-top: 25px;
 }
+@media screen and (max-width: 500px) {
+    .box-her-img {
+        /* background-color:lightblue; */
+        display: none;
+    }
+    .but-box {
+        width: 100% !important;
+    }  
+}

@@ -6,6 +6,7 @@ import Button from '@mui/material/Button'
 import Snackbar from '@mui/material/Snackbar';
 import Slide, { SlideProps } from '@mui/material/Slide';
 import instance from '../../utils/index'
+import './index.css'
 
 type TransitionProps = Omit<SlideProps, 'direction'>;
 
