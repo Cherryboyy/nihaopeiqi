@@ -17,6 +17,8 @@ let rows:any = [];
 
 export default function DataTable() {
   const [Peiqi_list, setPeiqi_list] = React.useState(Array);
+  console.log(Peiqi_list);
+  
   const getAlllist = () => {
     instance.post('/api/msg_board/list').then((res) => {
         console.log(res);

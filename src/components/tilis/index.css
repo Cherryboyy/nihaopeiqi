@@ -8,6 +8,7 @@
     bottom: 0;
     padding-bottom: 10px;
     background-color: #fff;
+    height: 50px !important;
 }
 .index-box .MuiBox-root .MuiGrid-root{
     width: 100% !important;

@@ -33,9 +33,6 @@ const App: React.FC =() => {
       <IndexBotton/>
     </div>
    }
-   const appViwe=() => {
-    
-   }
     return (
       <main className="box">
         {matches ? suoyou() : <Tilis />}
