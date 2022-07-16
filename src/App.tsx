@@ -4,12 +4,15 @@ import { Route, Routes } from 'react-router-dom'
 import IndexHeader from './components/indexHeader'
 import IndexBotton from './components/indexBotton'
 import Article from './components/articles/index'
+import Tilis from './components/tilis/index'
 import router from './router' 
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 const App: React.FC =() => {
-    return (
-      <main className="box">
-        <IndexHeader/>
+   const matches = useMediaQuery('(min-width:600px)');
+   const suoyou=() => {
+    return <div>
+      <IndexHeader/>
         <Routes>
           {
             router.map((item, i) => {
@@ -26,8 +29,16 @@ const App: React.FC =() => {
             })
           }
         </Routes>
-        <Article />
-        <IndexBotton/>
+      <Article />
+      <IndexBotton/>
+    </div>
+   }
+   const appViwe=() => {
+    
+   }
+    return (
+      <main className="box">
+        {matches ? suoyou() : <Tilis />}
       </main>
     )
 }

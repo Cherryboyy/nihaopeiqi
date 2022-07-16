@@ -1,0 +1,27 @@
+.bot-text {
+    color: black;
+    text-align: center;
+}
+.box-tilis-ts {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+.index-box .MuiBox-root .MuiGrid-root{
+    width: 100% !important;
+}
+.box-tilis {
+    width: 100%;
+    
+}
+.box-tilis .MuiButton-root {
+    width: 100%;
+    color: #fff !important;
+    background-color: rgb(37, 136, 218) !important;
+    margin-right: 15px;
+}
+.box-textver .MuiFormControl-root {
+    padding-bottom: 40px;
+}
